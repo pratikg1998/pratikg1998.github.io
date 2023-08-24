@@ -5304,3 +5304,19 @@ a.credit {
 #insta {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
+
+/* interest sections */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row .image {
+  width: 50%;
+  height: 25%;
+}
+
+.row .pic {
+  width: calc(100% - (20px * 4));
+  margin: 5px;
+}
